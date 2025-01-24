@@ -1,0 +1,19 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cu8m2petrfea4ndan8pg",
+    "operations": [
+      {
+        "drop_column": {
+          "table": "websites",
+          "column": "userId"
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cu8m2petrfea4ndan8pg",
+  "parent": "mig_cu8lfnu34skj7mihmle0",
+  "schema": "public",
+  "startedAt": "2025-01-22T21:21:42.146023Z"
+}

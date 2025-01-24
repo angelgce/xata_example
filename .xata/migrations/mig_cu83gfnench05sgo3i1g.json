@@ -1,0 +1,25 @@
+{
+  "done": false,
+  "migration": {
+    "name": "mig_cu83gfnench05sgo3i1g",
+    "operations": [
+      {
+        "create_table": {
+          "name": "customers",
+          "columns": [
+            {
+              "pk": true,
+              "name": "id",
+              "type": "integer"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cu83gfnench05sgo3i1g",
+  "parent": "mig_cu83cl7ench05sgo3i0g",
+  "schema": "public",
+  "startedAt": "2025-01-22T00:13:51.653355Z"
+}

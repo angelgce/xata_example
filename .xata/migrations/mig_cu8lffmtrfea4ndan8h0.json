@@ -1,0 +1,25 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cu8lffmtrfea4ndan8h0",
+    "operations": [
+      {
+        "add_column": {
+          "table": "websites",
+          "column": {
+            "name": "url",
+            "type": "text",
+            "unique": true,
+            "comment": "",
+            "nullable": true
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cu8lffmtrfea4ndan8h0",
+  "parent": "mig_cu8lf87lmd4pfs40o1qg",
+  "schema": "public",
+  "startedAt": "2025-01-22T20:40:30.39967Z"
+}

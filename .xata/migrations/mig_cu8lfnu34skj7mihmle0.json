@@ -1,0 +1,30 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_cu8lfnu34skj7mihmle0",
+    "operations": [
+      {
+        "add_column": {
+          "table": "websites",
+          "column": {
+            "name": "userId",
+            "type": "text",
+            "comment": "{\"xata.link\":\"users\"}",
+            "nullable": true,
+            "references": {
+              "name": "userId_link",
+              "table": "users",
+              "column": "email",
+              "on_delete": "CASCADE"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_cu8lfnu34skj7mihmle0",
+  "parent": "mig_cu8lffmtrfea4ndan8h0",
+  "schema": "public",
+  "startedAt": "2025-01-22T20:41:03.532884Z"
+}
